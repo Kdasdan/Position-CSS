@@ -199,3 +199,50 @@ p {
   border: solid black;
 }
 /* END */
+
+/* 6- Random */
+.cyanV3 {
+  width: 450px;
+  height: 450px;
+  background-color: cadetblue;
+  margin: auto;
+}
+
+.vertV3 {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.bleuV3 {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(0, 0, 255, 0.342);
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  z-index: 3;
+}
+
+.orangeV3 {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  position: relative;
+  bottom: 100px;
+  left: 200px;
+  z-index: 2;
+}
+
+.jauneV3 {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  position: relative;
+  top: 100px;
+  left: 250px;
+}
+/* END */
