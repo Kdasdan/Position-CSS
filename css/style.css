@@ -13,7 +13,7 @@ p {
   font-size: 28px;
 }
 
-#br {
+.br {
   margin-top: 200px;
 }
 /* END */
@@ -149,3 +149,53 @@ p {
 }
 /* END */
 
+/* 5- Absolue/Relative */
+.cyan {
+  width: 250px;
+  height: 250px;
+  background-color: cadetblue;
+  margin: auto;
+  margin-top: 50px;
+  border: solid black;
+}
+
+.vertV2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: solid black;
+}
+
+.bleuV2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  left: 135px;
+  top: 5px;
+  border: solid black;
+}
+
+.orangeV2 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 5px;
+  border: solid black;
+}
+
+.jaune {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: relative;
+  left: 135px;
+  top: 35px;
+  border: solid black;
+}
+/* END */
