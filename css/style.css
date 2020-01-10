@@ -12,6 +12,10 @@ h1, h2, p {
 p {
   font-size: 28px;
 }
+
+#br {
+  margin-top: 200px;
+}
 /* END */
 
 /* 1- NO POSITION */
@@ -101,5 +105,45 @@ p {
   position: absolute;
   margin-top: 550px;
   left: 900px;
+  border: solid black;
+}
+/* END */
+
+/* 4- Absolue V2 */
+.cyanAbsolue {
+  width: 99%;
+  height: 100px;
+  margin: auto;
+  background-color: cadetblue;
+  border: solid black;
+}
+
+.vertAbsolueV2 {
+  width: 1000px;
+  height: 500px;
+  background-color: green;
+  margin: auto;
+  margin-top: 100px;
+  border: solid black;
+}
+
+.bleuAbsolueV2 {
+  width: 500px;
+  height: 250px;
+  background-color: blue;
+  margin: auto;
+  position: absolute;
+  margin-top: 120px;
+  left: 700px;
+  border: solid black;
+}
+
+.orangeAbsolueV2 {
+  width: 120px;
+  height: 120px;
+  background-color: orange;
+  position: absolute;
+  margin-top: 550px;
+  left: 1600px;
   border: solid black;
 }
