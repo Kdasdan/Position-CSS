@@ -1,0 +1,34 @@
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+
+h1, p {
+  text-align: center;
+}
+
+/* 1- NO POSITION */
+.vert {
+  width: 1000px;
+  height: 500px;
+  background-color: green;
+  margin: auto;
+  padding-top: 120px;
+}
+
+.bleu {
+  width: 500px;
+  height: 250px;
+  background-color: blue;
+  margin: auto;
+  padding-top: 120px;
+}
+
+.orange {
+  width: 250px;
+  height: 120px;
+  background-color: orange;
+  margin: auto;
+}
+/* END */
