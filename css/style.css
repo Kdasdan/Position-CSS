@@ -4,9 +4,15 @@
   padding: 0;
 }
 
-h1, p {
+/* GENERAL */
+h1, h2, p {
   text-align: center;
 }
+
+p {
+  font-size: 28px;
+}
+/* END */
 
 /* 1- NO POSITION */
 .vert {
@@ -15,6 +21,7 @@ h1, p {
   background-color: green;
   margin: auto;
   padding-top: 120px;
+  border: solid black;
 }
 
 .bleu {
@@ -23,6 +30,7 @@ h1, p {
   background-color: blue;
   margin: auto;
   padding-top: 120px;
+  border: solid black;
 }
 
 .orange {
@@ -30,5 +38,37 @@ h1, p {
   height: 120px;
   background-color: orange;
   margin: auto;
+  border: solid black;
 }
-/*** END ***/
+/* END */
+
+/* 2- Relative */
+.vertRelative {
+  width: 1000px;
+  height: 500px;
+  background-color: green;
+  margin: auto;
+  border: solid black;
+}
+
+.bleuRelative {
+  width: 800px;
+  height: 250px;
+  background-color: rgba(0, 0, 255, 0.294);
+  margin: auto;
+  position: relative;
+  left: 250px;
+  top: 120px;
+  border: solid black;
+}
+
+.orangeRelative {
+  width: 800px;
+  height: 120px;
+  background-color: orange;
+  margin: auto;
+  position: relative;
+  right: 400px;
+  bottom: 70px;
+  border: solid black;
+}
