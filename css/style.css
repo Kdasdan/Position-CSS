@@ -72,3 +72,34 @@ p {
   bottom: 70px;
   border: solid black;
 }
+/* END */
+
+/* 3- Absolue */
+.vertAbsolue {
+  width: 1000px;
+  height: 500px;
+  background-color: green;
+  margin: auto;
+  border: solid black;
+}
+
+.bleuAbsolue {
+  width: 500px;
+  height: 250px;
+  background-color: blue;
+  margin: auto;
+  position: absolute;
+  margin-top: 120px;
+  left: 700px;
+  border: solid black;
+}
+
+.orangeAbsolue {
+  width: 120px;
+  height: 120px;
+  background-color: orange;
+  position: absolute;
+  margin-top: 550px;
+  left: 900px;
+  border: solid black;
+}
