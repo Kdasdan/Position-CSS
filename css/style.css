@@ -119,8 +119,8 @@ p {
 }
 
 .vertAbsolueV2 {
-  width: 1000px;
-  height: 500px;
+  width: 800px;
+  height: 400px;
   background-color: green;
   margin: auto;
   margin-top: 100px;
@@ -128,12 +128,12 @@ p {
 }
 
 .bleuAbsolueV2 {
-  width: 500px;
-  height: 250px;
+  width: 400px;
+  height: 200px;
   background-color: blue;
   margin: auto;
   position: absolute;
-  margin-top: 120px;
+  margin-top: 100px;
   left: 700px;
   border: solid black;
 }
@@ -143,30 +143,28 @@ p {
   height: 120px;
   background-color: orange;
   position: absolute;
-  margin-top: 550px;
-  left: 1600px;
+  margin-top: 450px;
+  left: 1430px;
   border: solid black;
 }
 /* END */
 
-/* 5- Absolue/Relative */
+/* 5- Relative */
 .cyan {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-color: cadetblue;
   margin: auto;
-  margin-top: 50px;
-  border: solid black;
+  position: relative;
 }
 
 .vertV2 {
   width: 100px;
   height: 100px;
   background-color: green;
-  position: absolute;
-  margin-top: 5px;
-  margin-left: 5px;
-  border: solid black;
+  position: relative;
+  left: 170px;
+  top: 30px;
 }
 
 .bleuV2 {
@@ -174,19 +172,17 @@ p {
   height: 100px;
   background-color: blue;
   position: relative;
-  left: 135px;
-  top: 5px;
-  border: solid black;
+  bottom: 70px;
+  left: 30px;
 }
 
 .orangeV2 {
   width: 100px;
   height: 100px;
   background-color: orange;
-  position: absolute;
-  margin-top: 35px;
-  margin-left: 5px;
-  border: solid black;
+  position: relative;
+  bottom: 30px;
+  left: 170px;
 }
 
 .jaune {
@@ -194,9 +190,54 @@ p {
   height: 100px;
   background-color: yellow;
   position: relative;
-  left: 135px;
-  top: 35px;
-  border: solid black;
+  bottom: 130px;
+  left: 30px;
+}
+/* END */
+
+/* 5- ABSOLUTE */
+.pink {
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  margin: auto;
+  position: relative;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.purple {
+  width: 100px;
+  height: 100px;
+  background-color:purple;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.violet {
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.hotpink {
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
 }
 /* END */
 
@@ -244,5 +285,89 @@ p {
   position: relative;
   top: 100px;
   left: 250px;
+}
+/* END */
+
+/* 7- FLOAT */
+.box {
+  height: 300px;
+  width: 400px;
+  margin: auto;
+}
+
+.box2 {
+  width: 200px;
+  height: 100px;
+}
+
+.vertV4 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.bleuV4 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: right;
+}
+
+.orangeV4 {
+  width: 400px;
+  height: 100px;
+  background-color: orange;
+}
+
+.gris {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  float: right;
+}
+
+.jauneV4 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  float: right;
+}
+/* END */
+
+/* 8- */
+footer {
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  position: fixed;
+  z-index: 99999;
+}
+
+ul{
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 15%;
+  letter-spacing: 2px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+ul {
+  position: sticky;
+  top: 0px;
 }
 /* END */
